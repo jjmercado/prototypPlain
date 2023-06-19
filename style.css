@@ -1,0 +1,104 @@
+/* *
+{
+    border: 1px solid red;
+} */
+
+html, body
+{
+    margin: 0;
+    border: 0;
+    height: 100vh;
+}
+
+.elements-container
+{
+    display: flex;
+    height: 100%;
+}
+
+.info-container
+{
+    display: flex;
+    flex-direction: column;
+    flex: 70%;
+}
+
+.actual-info
+{
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    background-color: rgb(3, 185, 3);
+    border-radius: 5px;
+    border: 2px solid darkgreen;
+    margin: 5px;
+}
+
+.actual-info img
+{
+    height: 130px;
+}
+
+.next-booking-info
+{
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    border-radius: 5px;
+    border: 2px solid darkgray;
+    margin: 0px 5px 5px 5px;
+}
+
+.next-booking-info-text
+{
+    align-self: center;
+}
+
+.logo-text
+{
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 30%;
+    border-radius: 5px;
+    border: 2px solid darkgray;
+    margin: 5px 5px 5px 0px;
+}
+
+.logo-text div
+{
+    margin: auto auto;
+}
+
+.logo-text img
+{
+    height: 132px;
+    width: 132px;
+}
+
+.logo-text p
+{
+    text-align: center;
+}
+
+.overview-buttons
+{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.overview-buttons button
+{
+    height: 80px;
+    border: 0;
+    border-radius: 5px;
+}
