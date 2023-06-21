@@ -1,7 +1,8 @@
-/* *
+*
 {
-    border: 1px solid red;
-} */
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+}
 
 html, body
 {
@@ -26,7 +27,6 @@ html, body
 .actual-info
 {
     display: flex;
-    box-sizing: border-box;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -45,7 +45,6 @@ html, body
 .next-booking-info
 {
     display: flex;
-    box-sizing: border-box;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -63,7 +62,6 @@ html, body
 .logo-text
 {
     display: flex;
-    box-sizing: border-box;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -93,7 +91,7 @@ html, body
 {
     display: flex;
     flex-direction: column;
-
+    gap: 8px;
 }
 
 .overview-buttons button
